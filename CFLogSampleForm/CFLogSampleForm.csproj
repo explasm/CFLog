@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants);LOGGER_START</DefineConstants>
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>9999</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="CFLogSampleForm.ja.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CFLog\CFLog.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="CFLog.Logger">
+      <Static>True</Static>
+    </Using>
+    <Using Include="CFLog.Logger.LogType">
+      <Static>True</Static>
+    </Using>
+  </ItemGroup>
+
+</Project>

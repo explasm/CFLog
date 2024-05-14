@@ -1,0 +1,289 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="CFLog.Tests" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="CFLog.Tests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="InitAndTerm" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_010_010_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_010_010_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_010_020_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_010_020_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_010_030_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_010_030_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_010_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_010_0XX(ID: &quot;ID_010_020_010_020&quot;, logDir: &quot;.\\Log&quot;, file_prefix: &quot;CFLogTests2&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_010_0XX(ID: &quot;ID_010_020_010_030&quot;, logDir: &quot;.\\Log2&quot;, file_prefix: &quot;CFLogTests&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_010_0XX(ID: &quot;ID_010_020_010_010&quot;, logDir: &quot;.\\Log&quot;, file_prefix: &quot;CFLogTests&quot;)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_080&quot;, logDir: &quot;\\\\ErrorServer\\LogtestError&quot;, delDir: &quot;&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_060&quot;, logDir: &quot;C:\\&quot;, delDir: &quot;&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_021&quot;, logDir: &quot;.\\CFLogtest2024\\L020\\&quot;, delDir: &quot;.\\CFLogTest2024&quot;, allowMultipleProcesses: True)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_046&quot;, logDir: &quot;\\\\localhost\\CFLogTestLog\\Log&quot;, delDir: &quot;\\\\localhost\\CFLogTestLog\\Log&quot;, allowMultipleProcesses: True)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_040&quot;, logDir: &quot;C:\\CFLogtest2024\\L040\\&quot;, delDir: &quot;C:\\CFLogTest2024&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_045&quot;, logDir: &quot;\\\\localhost\\CFLogTestLog\\Log&quot;, delDir: &quot;\\\\localhost\\CFLogTestLog\\Log&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_031&quot;, logDir: &quot;C:\\CFLogtest2024\\L030&quot;, delDir: &quot;C:\\CFLogTest2024&quot;, allowMultipleProcesses: True)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_020&quot;, logDir: &quot;.\\CFLogtest2024\\L020\\&quot;, delDir: &quot;.\\CFLogTest2024&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_011&quot;, logDir: &quot;.\\CFLogtest2024\\L010&quot;, delDir: &quot;.\\CFLogTest2024&quot;, allowMultipleProcesses: True)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_010&quot;, logDir: &quot;.\\CFLogtest2024\\L010&quot;, delDir: &quot;.\\CFLogTest2024&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_070&quot;, logDir: &quot;A:\\LogtestError&quot;, delDir: &quot;&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_050&quot;, logDir: &quot;\\&quot;, delDir: &quot;&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_030&quot;, logDir: &quot;C:\\CFLogtest2024\\L030&quot;, delDir: &quot;C:\\CFLogTest2024&quot;, allowMultipleProcesses: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_020_0XX(ID: &quot;ID_010_020_020_041&quot;, logDir: &quot;C:\\CFLogtest2024\\L040\\&quot;, delDir: &quot;C:\\CFLogTest2024&quot;, allowMultipleProcesses: True)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_030_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_030_0XX(_: &quot;ID_010_020_030_020&quot;, allowMultiProcess: True)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_030_0XX(_: &quot;ID_010_020_030_010&quot;, allowMultiProcess: False)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_040_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_040_0XX(ID: &quot;ID_010_020_040_020&quot;, processCount: 5)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_040_0XX(ID: &quot;ID_010_020_040_010&quot;, processCount: 4)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_050_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_050_0XX(ID: &quot;ID_010_020_050_010&quot;, allowMultiProcess: False)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_050_0XX(ID: &quot;ID_010_020_050_020&quot;, allowMultiProcess: True)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_060_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_060_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_070_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_070_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_070_020" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_070_020" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_080_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_080_0XX(ID: &quot;ID_010_020_080_020&quot;, storageDays: 1)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_080_0XX(ID: &quot;ID_010_020_080_010&quot;, storageDays: 3)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_080_0XX(ID: &quot;ID_010_020_080_030&quot;, storageDays: 0)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_090_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_090_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_020_100_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_020_100_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_030_010_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_030_010_0XX(ID: &quot;ID_010_030_010_020&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_030_010_0XX(ID: &quot;ID_010_030_010_010&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_030_010_0XX(ID: &quot;ID_010_030_010_030&quot;)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.InitAndTerm.ID_010_010_040_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.InitAndTerm.ID_010_010_040_010" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="LogWriting" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_010_010_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_010_0XX(_: &quot;ID_020_010_010_020&quot;, line1: &quot;いちぎょうめ&quot;, line2: &quot;ここから２行目&quot;, line3: null)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_010_0XX(_: &quot;ID_020_010_010_010&quot;, line1: &quot;1行だけのログメッセージ&quot;, line2: null, line3: null)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_010_0XX(_: &quot;ID_020_010_010_030&quot;, line1: &quot;一ぎょうめ&quot;, line2: &quot;ここから２行目&quot;, line3: &quot;３行目だよ&quot;)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_010_020_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_020_0XX(ID: &quot;ID_020_010_020_010&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_020_0XX(ID: &quot;ID_020_010_020_020&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_020_0XX(ID: &quot;ID_020_010_020_030&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_020_0XX(ID: &quot;ID_020_010_020_040&quot;)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_010_030_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_030_0XX(ID: &quot;ID_020_010_030_010&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_030_0XX(ID: &quot;ID_020_010_030_020&quot;)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_010_040_050" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_040_050" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_010_040_0XX" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_040_0XX(ID: &quot;ID_020_010_040_040&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_040_0XX(ID: &quot;ID_020_010_040_030&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_040_0XX(ID: &quot;ID_020_010_040_020&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_040_0XX(ID: &quot;ID_020_010_040_010&quot;)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_010_050_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_050_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_010_050_020" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_010_050_020" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_020_010_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_020_010_010" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.LogWriting.ID_020_020_010_020" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.LogWriting.ID_020_020_010_020" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+                <Rule Match="All">
+                  <Property Name="Class" Value="ResourceChecker" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;AlreadyInitializedError&quot;, en: &quot;CreateLogger() has already been executed.&quot;, ja: &quot;既にCreateLogger()は実施されています。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;CannotOpenLogfileError&quot;, en: &quot;Could not open log file \&quot;{0}\&quot;.&quot;, ja: &quot;ログファイル {0} はオープンできませんでした。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;CompareFilesDebug&quot;, en: &quot;Compare file [{0}] in folder with longest stored f&quot;···, ja: &quot;フォルダ中のファイル[{0}]と保管最長ファイル名[{1}]を比較します。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DeletedFileInfo&quot;, en: &quot;Deleted log file [{0}].&quot;, ja: &quot;ログファイル[{0}]を削除しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DeleteFailedError&quot;, en: &quot;Failed to delete log file [{0}].&quot;, ja: &quot;ログファイル[{0}]の削除に失敗しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DeleteTargetDebug&quot;, en: &quot;File [{0}] in the folder is subject to deletion.&quot;, ja: &quot;フォルダ中のファイル[{0}]は削除対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DoNotDeleteInfo&quot;, en: &quot;The deletion process was not performed because the&quot;···, ja: &quot;指定されたログ保管日数が0以下のため、削除処理を行いませんでした。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;EnumrateFilesError&quot;, en: &quot;Mainly, it failed to get the file list.&quot;, ja: &quot;主な原因はファイルリスト取得の失敗です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;MaxProcess&quot;, en: &quot;The number of processes has reached the maximum nu&quot;···, ja: &quot;プロセス数が最大数({0})に達しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;NoDirectoryError&quot;, en: &quot;Root directory specified or no directory specified&quot;···, ja: &quot;ルートディレクトリが指定されているか、ディレクトリの指定がありません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;StartLogging&quot;, en: &quot;=== Start logging ===&quot;, ja: &quot;=== ログを開始します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;StopLogging&quot;, en: &quot;=== Stop logging ===&quot;, ja: &quot;=== ログを終了します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;SwitchStartLogging&quot;, en: &quot;--- Continued logging from previous file ---&quot;, ja: &quot;--- 前日より引き継ぎました ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;SwitchStopLogging&quot;, en: &quot;--- Continued logging to next file ---&quot;, ja: &quot;--- 翌日へ引き継ぎます ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;ToBeSaved&quot;, en: &quot;The file [{0}] in the folder is to be saved.&quot;, ja: &quot;フォルダ中のファイル[{0}]は保管対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;UninitializedError&quot;, en: &quot;CreateLogger() has not been executed.&quot;, ja: &quot;CreateLogger()が実施されていません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;SwitchStartLogging&quot;, _: &quot;--- Continued logging from previous file ---&quot;, ja: &quot;--- 前日より引き継ぎました ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;ToBeSaved&quot;, _: &quot;The file [{0}] in the folder is to be saved.&quot;, ja: &quot;フォルダ中のファイル[{0}]は保管対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DoNotDeleteInfo&quot;, _: &quot;The deletion process was not performed because the&quot;···, ja: &quot;指定されたログ保管日数が0以下のため、削除処理を行いませんでした。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;AlreadyInitializedError&quot;, _: &quot;CreateLogger() has already been executed.&quot;, ja: &quot;既にCreateLogger()は実施されています。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;NoDirectoryError&quot;, _: &quot;Root directory specified or no directory specified&quot;···, ja: &quot;ルートディレクトリが指定されているか、ディレクトリの指定がありません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DeleteTargetDebug&quot;, _: &quot;File [{0}] in the folder is subject to deletion.&quot;, ja: &quot;フォルダ中のファイル[{0}]は削除対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;CannotOpenLogfileError&quot;, _: &quot;Could not open log file \&quot;{0}\&quot;.&quot;, ja: &quot;ログファイル {0} はオープンできませんでした。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;MaxProcess&quot;, _: &quot;The number of processes has reached the maximum nu&quot;···, ja: &quot;プロセス数が最大数({0})に達しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;EnumrateFilesError&quot;, _: &quot;Mainly, it failed to get the file list.&quot;, ja: &quot;主な原因はファイルリスト取得の失敗です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DeleteFailedError&quot;, _: &quot;Failed to delete log file [{0}].&quot;, ja: &quot;ログファイル[{0}]の削除に失敗しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;UninitializedError&quot;, _: &quot;CreateLogger() has not been executed.&quot;, ja: &quot;CreateLogger()が実施されていません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;SwitchStopLogging&quot;, _: &quot;--- Continued logging to next file ---&quot;, ja: &quot;--- 翌日へ引き継ぎます ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;StartLogging&quot;, _: &quot;=== Start logging ===&quot;, ja: &quot;=== ログを開始します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;StopLogging&quot;, _: &quot;=== Stop logging ===&quot;, ja: &quot;=== ログを終了します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;CompareFilesDebug&quot;, _: &quot;Compare file [{0}] in folder with longest stored f&quot;···, ja: &quot;フォルダ中のファイル[{0}]と保管最長ファイル名[{1}]を比較します。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_010(key: &quot;DeletedFileInfo&quot;, _: &quot;Deleted log file [{0}].&quot;, ja: &quot;ログファイル[{0}]を削除しました。&quot;)" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;AlreadyInitializedError&quot;, en: &quot;CreateLogger() has already been executed.&quot;, ja: &quot;既にCreateLogger()は実施されています。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;CannotOpenLogfileError&quot;, en: &quot;Could not open log file \&quot;{0}\&quot;.&quot;, ja: &quot;ログファイル {0} はオープンできませんでした。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;CompareFilesDebug&quot;, en: &quot;Compare file [{0}] in folder with longest stored f&quot;···, ja: &quot;フォルダ中のファイル[{0}]と保管最長ファイル名[{1}]を比較します。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DeletedFileInfo&quot;, en: &quot;Deleted log file [{0}].&quot;, ja: &quot;ログファイル[{0}]を削除しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DeleteFailedError&quot;, en: &quot;Failed to delete log file [{0}].&quot;, ja: &quot;ログファイル[{0}]の削除に失敗しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DeleteTargetDebug&quot;, en: &quot;File [{0}] in the folder is subject to deletion.&quot;, ja: &quot;フォルダ中のファイル[{0}]は削除対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DoNotDeleteInfo&quot;, en: &quot;The deletion process was not performed because the&quot;···, ja: &quot;指定されたログ保管日数が0以下のため、削除処理を行いませんでした。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;EnumrateFilesError&quot;, en: &quot;Mainly, it failed to get the file list.&quot;, ja: &quot;主な原因はファイルリスト取得の失敗です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;MaxProcess&quot;, en: &quot;The number of processes has reached the maximum nu&quot;···, ja: &quot;プロセス数が最大数({0})に達しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;NoDirectoryError&quot;, en: &quot;Root directory specified or no directory specified&quot;···, ja: &quot;ルートディレクトリが指定されているか、ディレクトリの指定がありません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;StartLogging&quot;, en: &quot;=== Start logging ===&quot;, ja: &quot;=== ログを開始します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;StopLogging&quot;, en: &quot;=== Stop logging ===&quot;, ja: &quot;=== ログを終了します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;SwitchStartLogging&quot;, en: &quot;--- Continued logging from previous file ---&quot;, ja: &quot;--- 前日より引き継ぎました ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;SwitchStopLogging&quot;, en: &quot;--- Continued logging to next file ---&quot;, ja: &quot;--- 翌日へ引き継ぎます ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;ToBeSaved&quot;, en: &quot;The file [{0}] in the folder is to be saved.&quot;, ja: &quot;フォルダ中のファイル[{0}]は保管対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;UninitializedError&quot;, en: &quot;CreateLogger() has not been executed.&quot;, ja: &quot;CreateLogger()が実施されていません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;ToBeSaved&quot;, en: &quot;The file [{0}] in the folder is to be saved.&quot;, _: &quot;フォルダ中のファイル[{0}]は保管対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;SwitchStartLogging&quot;, en: &quot;--- Continued logging from previous file ---&quot;, _: &quot;--- 前日より引き継ぎました ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;UninitializedError&quot;, en: &quot;CreateLogger() has not been executed.&quot;, _: &quot;CreateLogger()が実施されていません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;CannotOpenLogfileError&quot;, en: &quot;Could not open log file \&quot;{0}\&quot;.&quot;, _: &quot;ログファイル {0} はオープンできませんでした。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;EnumrateFilesError&quot;, en: &quot;Mainly, it failed to get the file list.&quot;, _: &quot;主な原因はファイルリスト取得の失敗です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DeleteFailedError&quot;, en: &quot;Failed to delete log file [{0}].&quot;, _: &quot;ログファイル[{0}]の削除に失敗しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;AlreadyInitializedError&quot;, en: &quot;CreateLogger() has already been executed.&quot;, _: &quot;既にCreateLogger()は実施されています。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DeletedFileInfo&quot;, en: &quot;Deleted log file [{0}].&quot;, _: &quot;ログファイル[{0}]を削除しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DeleteTargetDebug&quot;, en: &quot;File [{0}] in the folder is subject to deletion.&quot;, _: &quot;フォルダ中のファイル[{0}]は削除対象です。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;MaxProcess&quot;, en: &quot;The number of processes has reached the maximum nu&quot;···, _: &quot;プロセス数が最大数({0})に達しました。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;StopLogging&quot;, en: &quot;=== Stop logging ===&quot;, _: &quot;=== ログを終了します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;CompareFilesDebug&quot;, en: &quot;Compare file [{0}] in folder with longest stored f&quot;···, _: &quot;フォルダ中のファイル[{0}]と保管最長ファイル名[{1}]を比較します。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;NoDirectoryError&quot;, en: &quot;Root directory specified or no directory specified&quot;···, _: &quot;ルートディレクトリが指定されているか、ディレクトリの指定がありません。&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;StartLogging&quot;, en: &quot;=== Start logging ===&quot;, _: &quot;=== ログを開始します ===&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;SwitchStopLogging&quot;, en: &quot;--- Continued logging to next file ---&quot;, _: &quot;--- 翌日へ引き継ぎます ---&quot;)" />
+                        <Property Name="DisplayName" Value="CFLog.Tests.ResourceChecker.ID_030_010_010_020(key: &quot;DoNotDeleteInfo&quot;, en: &quot;The deletion process was not performed because the&quot;···, _: &quot;指定されたログ保管日数が0以下のため、削除処理を行いませんでした。&quot;)" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
