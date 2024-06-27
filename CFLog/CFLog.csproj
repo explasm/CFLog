@@ -12,6 +12,19 @@
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <FileVersion>1.0.0</FileVersion>
     <NeutralLanguage>en</NeutralLanguage>
+    <PackageIcon>frame-256.png</PackageIcon>
+    <Title>CFLog</Title>
+    <Authors>T.Fukushima</Authors>
+    <RepositoryUrl>https://github.com/explasm/CFLog</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/explasm/CFLog</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>CFLog C# Windows .NET 6以降のためのログライブラリ</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>cflog;logging;logger;log;explasm;ログ;ロガー</PackageTags>
+    <PackageReleaseNotes>新規公開</PackageReleaseNotes>
+    <Copyright>Copyright © Takahiro Fukushima</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -21,6 +34,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <WarningLevel>9999</WarningLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\package\frame-256.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\package\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="MessageResource.Designer.cs">
@@ -35,6 +59,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>MessageResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="frame-256.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

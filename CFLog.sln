@@ -20,6 +20,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package", "Package", "{86423AFF-F922-4DF7-9AD4-C0142DF90327}"
+	ProjectSection(SolutionItems) = preProject
+		package\frame-256.png = package\frame-256.png
+		package\README.md = package\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +51,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86423AFF-F922-4DF7-9AD4-C0142DF90327} = {0C34B63F-DC93-40A1-A231-0C4956E7D033}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93C6C85A-D1A2-4609-82C6-5EE3EB4A09C5}
