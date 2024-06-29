@@ -551,8 +551,8 @@ Exception.ToString() による出力はスタックトレース等の詳細情�
     } catch(Exception ex)
     {
 		// 入れ子になった例外情報
-		LOG.Write(F, "ToString()なし", ex, false);
-		LOG.Write(F, "ToString()あり", ex);
+        LOG.Write(F, "ToString()なし", ex, false);
+        LOG.Write(F, "ToString()あり", ex);
     }
 ```
 
