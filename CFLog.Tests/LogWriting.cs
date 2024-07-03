@@ -414,9 +414,11 @@ namespace CFLog.Tests
 		/// ログ書出し・シングルスレッド・書出し中の例外発生
 		/// 削除処理終息後にログファイルストリームをクローズさせ、次のログ書き出しで例外を発生させる。
 		//-------------------------------------------------------------------
-		[Fact]
+		[Theory]
 		[Trait("FullAuto", "true")]
-		public void ID_020_010_050_020()
+		[InlineData("ID_020_010_050_020")]
+		[InlineData("ID_020_010_050_021")]
+		public void ID_020_010_050_02X(string ID)
 		{
 			Setup.InitType1();
 
@@ -441,9 +443,32 @@ namespace CFLog.Tests
 				FileStream? fs = (FileStream?)_fs?.GetValue(logger);
 				fs?.Close();
 
-				var lex = Assert.Throws<Logger.LoggerWriteException>(
-					() => { LOG.Write(I, "例外が発生して書き出されないメッセージ"); }
-				);
+				switch(ID)
+				{
+				case "ID_020_010_050_020":
+					{
+						var lex = Assert.Throws<Logger.LoggerWriteException>(
+							() => { LOG.Write(I, "例外が発生して書き出されないメッセージ"); }
+						);
+					}
+					break;
+				case "ID_020_010_050_021":
+					{
+						bool isCatched = false;
+
+						// LoggerWriteException の親クラスでキャッチできるか？を問うテストなので Assert.Throws が使えない
+						try
+						{
+							LOG.Write(I, "例外が発生して書き出されないメッセージ");
+						} catch(Logger.LoggerException)
+						{
+							isCatched = true;
+						}
+
+						Assert.True(isCatched);
+					}
+					break;
+				}
 
 				// Logger.Dispose() で例外が発生しないようにしておく
 				_sw?.SetValue(logger,null);
@@ -589,5 +614,5 @@ namespace CFLog.Tests
 			}
 		}
 #endif
-	}
+					}
 }

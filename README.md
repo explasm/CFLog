@@ -125,10 +125,7 @@ static void Main()
         {
             Application.Run(new SampleForm());
         }
-    } catch(LoggerInitException ex)
-    {
-        MessageBox.Show(ex.Message);
-    } catch(LoggerWriteException ex)
+    } catch(LoggerException ex)
     {
         MessageBox.Show(ex.Message);
     }

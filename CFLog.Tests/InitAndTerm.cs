@@ -66,21 +66,44 @@ namespace CFLog.Tests
 		/// 初期化と終了・インスタンス生成・二重初期化エラー
 		/// LoggerInitException例外が発生し、メッセージが MessageResource.AlreadyInitializedError の内容であること。
 		//-------------------------------------------------------------------
-		[Fact]
+		[Theory]
 		[Trait("FullAuto", "true")]
-		public void ID_010_010_030_010()
+		[InlineData("ID_010_010_030_010")]
+		[InlineData("ID_010_010_030_011")]
+		public void ID_010_010_030_01X(string ID)
 		{
 			Setup.InitType1();
 
 			// 1度目の初期化
 			using(Logger.CreateLogger())
 			{
-				// ２度目の初期化で例外発生を確認
-				var lex = Assert.Throws<Logger.LoggerInitException>(
-					() => { using var logger = Logger.CreateLogger(); }
-				);
-				// 例外メッセージを確認
-				Assert.Equal(MessageResource.AlreadyInitializedError, lex.Message);
+				switch(ID)
+				{
+				case "ID_010_010_030_010":
+					{
+						// ２度目の初期化で例外発生を確認
+						var lex = Assert.Throws<Logger.LoggerInitException>(
+							() => { using var logger = Logger.CreateLogger(); }
+						);
+						// 例外メッセージを確認
+						Assert.Equal(MessageResource.AlreadyInitializedError, lex.Message);
+					}
+					break;
+				case "ID_010_010_030_011":
+					{
+						string message = string.Empty;
+						try
+						{
+							using var logger = Logger.CreateLogger();
+						} catch(Logger.LoggerException ex)
+						{
+							message = ex.Message;
+						}
+						// 例外メッセージを確認
+						Assert.Equal(MessageResource.AlreadyInitializedError, message);
+					}
+					break;
+				}
 			}
 
 			// 残す必要がないので作成したログフォルダを削除

@@ -45,7 +45,7 @@ namespace CFLogSampleForm
 						Application.Run(new CFLogSampleForm());
 					}
 				} else
-				{	/////////////////////////////////////////////////////////
+				{   /////////////////////////////////////////////////////////
 					// サブプロセスとして起動された場合
 					// フォーム画面の[マルチプロセス出力]ボタンが押下された際に
 					// 起動された場合の胥吏
@@ -72,7 +72,7 @@ namespace CFLogSampleForm
 					{
 						// サブプロセスとして起動された際の処理
 
-						for(int i = 0; i < 10; i++)
+						for(int i = 0 ; i < 10 ; i++)
 						{
 							LOG.Write(I, $"サブプロセス(Sub process) <{subProcessNumber}> [{i}]");
 							Thread.Sleep(200);
@@ -81,6 +81,13 @@ namespace CFLogSampleForm
 
 					// ★約２秒でプロセスを終了する
 				}
+#if true	// Loggerの例外クラスにルートクラスを追加したことで1つの例外クラスでcatchできるようにした（2024.7.3）
+			} catch(LoggerException ex)
+			{   // 当然ながら、Loggerが出す例外はログに書き出せない
+				System.Diagnostics.Debug.WriteLine(ex.Message);
+				MessageBox.Show(ex.Message);
+			}
+#else
 			} catch(LoggerInitException ex)
 			{	// 当然ながら、Loggerが出す例外はログに書き出せない
 				System.Diagnostics.Debug.WriteLine(ex.Message);
@@ -90,6 +97,7 @@ namespace CFLogSampleForm
 				System.Diagnostics.Debug.WriteLine(ex.Message);
 				MessageBox.Show(ex.Message);
 			}
+#endif
 
 			//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			// コマンドライン引数で、サブプロセス番号を取得する

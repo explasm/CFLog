@@ -9,8 +9,8 @@
     <AnalysisLevel>6.0-recommended</AnalysisLevel>
     <Company>explasm</Company>
     <Product>CFLog</Product>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageIcon>frame-256.png</PackageIcon>
     <Title>CFLog</Title>
@@ -20,11 +20,12 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/explasm/CFLog</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Description>CFLog C# Windows .NET 6以降のためのログライブラリ</Description>
+    <Description>CFLog C# Logger for .NET 6-8 Windows</Description>
     <RepositoryType>git</RepositoryType>
     <PackageTags>cflog;logging;logger;log;explasm;ログ;ロガー</PackageTags>
     <PackageReleaseNotes>新規公開</PackageReleaseNotes>
     <Copyright>Copyright © Takahiro Fukushima</Copyright>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

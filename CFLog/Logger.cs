@@ -979,13 +979,24 @@ namespace CFLog
 
 		//===================================================================
 		/// <summary>
+		/// Logger例外ルートクラス（まとめてcatchするためだけの存在）
+		/// </summary>
+		//===================================================================
+		public class LoggerException :Exception
+		{
+#pragma warning disable CS1591
+			protected LoggerException() : base() { }
+			protected LoggerException(in string mess) : base(mess) { }
+			protected LoggerException(in string mess, Exception exp) : base(mess, exp) { }
+#pragma warning restore CS1591
+		}
+
+		//===================================================================
+		/// <summary>
 		/// Logger初期化例外クラス 
 		/// </summary>
 		//===================================================================
-#pragma warning disable CA1034 // 入れ子にされた型を参照可能にすることはできません
-		[Serializable()]
-		public class LoggerInitException :Exception
-#pragma warning restore CA1034 // 入れ子にされた型を参照可能にすることはできません
+		public class LoggerInitException :LoggerException
 		{
 #pragma warning disable CS1591
 			public LoggerInitException() : base() { }
@@ -1004,10 +1015,7 @@ namespace CFLog
 		/// Logger.Write()の例外を区別できるように本クラスの存在意義がある
 		/// </remarks>
 		//===================================================================
-#pragma warning disable CA1034 // 入れ子にされた型を参照可能にすることはできません
-		[Serializable()]
-		public class LoggerWriteException :Exception
-#pragma warning restore CA1034 // 入れ子にされた型を参照可能にすることはできません
+		public class LoggerWriteException :LoggerException
 		{
 #pragma warning disable CS1591
 			public LoggerWriteException() : base() { }
