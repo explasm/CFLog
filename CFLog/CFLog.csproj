@@ -23,7 +23,7 @@
     <Description>CFLog C# Logger for .NET 6-8 Windows</Description>
     <RepositoryType>git</RepositoryType>
     <PackageTags>cflog;logging;logger;log;explasm;ログ;ロガー</PackageTags>
-    <PackageReleaseNotes>新規公開</PackageReleaseNotes>
+    <PackageReleaseNotes>例外クラスを１つにまとめた例外ルートクラス(LoggerException)を追加</PackageReleaseNotes>
     <Copyright>Copyright © Takahiro Fukushima</Copyright>
     <Version>1.1.0</Version>
   </PropertyGroup>
