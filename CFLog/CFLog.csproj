@@ -23,9 +23,13 @@
     <Description>CFLog C# Logger for .NET 6-8 Windows</Description>
     <RepositoryType>git</RepositoryType>
     <PackageTags>cflog;logging;logger;log;explasm;ログ;ロガー</PackageTags>
-    <PackageReleaseNotes>例外クラスを１つにまとめた例外ルートクラス(LoggerException)を追加</PackageReleaseNotes>
+    <PackageReleaseNotes>
+      The xml documentation for IntelliSense now supports English and Japanese. Previously it was only available in Japanese.No changes to the execution module. No changes to the execution module.
+      インテリセンス用のxmlドキュメントを英語、日本語に対応。これまでは日本語だけだった。実行モジュールの変更はなし。</PackageReleaseNotes>
     <Copyright>Copyright © Takahiro Fukushima</Copyright>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
+    <IncludeSymbols>False</IncludeSymbols>
+    <DocumentationFile>..\package\xml\ja\CFLog.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -68,5 +72,26 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+  
+  <!-- 追記 -->
+  <ItemGroup>
+    <Content Include="..\package\xml\ja\**">
+      <Pack>True</Pack>
+      <PackagePath>\lib\net6.0-windows7.0\ja</PackagePath>
+    </Content>
+    <Content Include="..\package\xml\ja\**">
+      <Pack>True</Pack>
+      <PackagePath>\lib\net7.0-windows7.0\ja</PackagePath>
+    </Content>
+    <Content Include="..\package\xml\ja\**">
+      <Pack>True</Pack>
+      <PackagePath>\lib\net8.0-windows7.0\ja</PackagePath>
+    </Content>
+  </ItemGroup>
+  <!-- 追記ここまで -->
+  
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="@echo off&#xD;&#xA;Rem 英語用XMLドキュメントがあればターゲットフォルダに強制コピー&#xD;&#xA;set src=&quot;..\package\xml\$(TargetName).xml&quot;&#xD;&#xA;if exist %25src%25 (&#xD;&#xA;    copy /Y %25src%25 $(TargetDir)&#xD;&#xA;)" />
+  </Target>
 
 </Project>
