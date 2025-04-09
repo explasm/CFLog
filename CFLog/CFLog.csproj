@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
+    <TargetFrameworks>net6.0-windows;net7.0-windows;net8.0-windows;net9.0-windows</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
@@ -9,8 +9,8 @@
     <AnalysisLevel>6.0-recommended</AnalysisLevel>
     <Company>explasm</Company>
     <Product>CFLog</Product>
-    <AssemblyVersion>1.1.0</AssemblyVersion>
-    <FileVersion>1.1.0</FileVersion>
+    <AssemblyVersion>1.1.2</AssemblyVersion>
+    <FileVersion>1.1.2</FileVersion>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageIcon>frame-256.png</PackageIcon>
     <Title>CFLog</Title>
@@ -20,14 +20,15 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/explasm/CFLog</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Description>CFLog C# Logger for .NET 6-8 Windows</Description>
+    <Description>CFLog C# Logger for .NET 6-9 Windows</Description>
     <RepositoryType>git</RepositoryType>
     <PackageTags>cflog;logging;logger;log;explasm;ログ;ロガー</PackageTags>
-    <PackageReleaseNotes>
-      The xml documentation for IntelliSense now supports English and Japanese. Previously it was only available in Japanese.No changes to the execution module. No changes to the execution module.
-      インテリセンス用のxmlドキュメントを英語、日本語に対応。これまでは日本語だけだった。実行モジュールの変更はなし。</PackageReleaseNotes>
+    <PackageReleaseNotes>NET 6.0 - 8.0 were previously targeted, but .NET 9.0 was added as a target.
+No other changes.
+これまで、.NET 6.0 - 8.0 がターゲットだったが、.NET 9.0 をターゲットに追加。
+その他の変更はなし。</PackageReleaseNotes>
     <Copyright>Copyright © Takahiro Fukushima</Copyright>
-    <Version>1.1.1</Version>
+    <Version>1.1.2</Version>
     <IncludeSymbols>False</IncludeSymbols>
     <DocumentationFile>..\package\xml\ja\CFLog.xml</DocumentationFile>
   </PropertyGroup>
@@ -86,6 +87,11 @@
     <Content Include="..\package\xml\ja\**">
       <Pack>True</Pack>
       <PackagePath>\lib\net8.0-windows7.0\ja</PackagePath>
+    </Content>
+    <!-- 2025.4.9 追記 -->
+    <Content Include="..\package\xml\ja\**">
+      <Pack>True</Pack>
+      <PackagePath>\lib\net9.0-windows7.0\ja</PackagePath>
     </Content>
   </ItemGroup>
   <!-- 追記ここまで -->

@@ -14,6 +14,7 @@
 <summary><b>日本の開発者向けOSS</b></summary>
 <ul>
 日本人開発者向けにソースコードのコメントなどはすべて日本語です。<br>
+40年の請負開発経験を元に、企業における業務アプリ開発に対応する品質を実現していると考えています。<br>
 実行時は日本語か英語のテキストリソースが選択されます。（テキストリソースは CFLog 自身がログファイルに書出すメッセージや例外メッセージに使用されます）
 </ul>
 </details>
@@ -44,7 +45,7 @@ CFLog は xUnit テストプロジェクトを同梱しています。自動実�
 </details>
 
 ## ◆２．仕様・コンセプト
-* Visual Studio 2022 ソリューション、.NET 6 & C# Ver.10にて作成（ターゲットは .NET 6.0 ～ 8.0 Windows）
+* Visual Studio 2022 ソリューション、.NET 6 & C# Ver.10にて作成（ターゲットは .NET 6.0 ～ 9.0 Windows）
 * １プロセスにつき１種類のログファイル
 * 同一アプリを複数起動するマルチプロセスには自動サブフォルダ振分けで対応
 * ログファイルの容量制限はなく、１日１ログファイルで指定保管日数を超えたファイルを削除していく方式
@@ -88,7 +89,7 @@ _CFLog.csproj（部分）_
 
 ```xml
 <PropertyGroup>
-   <TargetFrameworks>net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
+   <TargetFrameworks>net6.0-windows;net7.0-windows;net8.0-windows;net9.0-windows</TargetFrameworks>
    ...
 </PropertyGroup>
 ...
